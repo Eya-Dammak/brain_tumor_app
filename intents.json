@@ -1,0 +1,266 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey",
+        "Good morning",
+        "Hi there"
+      ],
+      "responses": [
+        "Hello! How can I help you with the brain MRI?",
+        "Hi! Need help with tumor detection?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "Goodbye",
+        "See you",
+        "Thanks, bye"
+      ],
+      "responses": [
+        "Goodbye! Stay safe!",
+        "See you next time!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "Thx",
+        "Thanks a lot"
+      ],
+      "responses": [
+        "You're welcome!",
+        "Happy to help!",
+        "Anytime!"
+      ]
+    },
+    {
+      "tag": "upload_image",
+      "patterns": [
+        "How to upload an image?",
+        "Where can I upload MRI?",
+        "Upload MRI image"
+      ],
+      "responses": [
+        "Click 'Browse Image' or drag and drop your MRI file."
+      ]
+    },
+    {
+      "tag": "predict_result",
+      "patterns": [
+        "What is the result?",
+        "Explain the prediction",
+        "What does the result mean?"
+      ],
+      "responses": [
+        "The result shows the tumor type and how confident the model is."
+      ]
+    },
+    {
+      "tag": "highlighted_area",
+      "patterns": [
+        "What is the red part?",
+        "What does red mean?",
+        "Explain the red area"
+      ],
+      "responses": [
+        "The red area is the part of the brain where a tumor may be present."
+      ]
+    },
+    {
+      "tag": "tumor_types",
+      "patterns": [
+        "What types of tumors?",
+        "Tell me tumor types",
+        "Explain glioma"
+      ],
+      "responses": [
+        "Types include glioma, meningioma, and pituitary tumor."
+      ]
+    },
+    {
+      "tag": "symptoms",
+      "patterns": [
+        "What are the symptoms?",
+        "Signs of brain tumor?",
+        "What should I check?"
+      ],
+      "responses": [
+        "Common symptoms are headaches, seizures, and vision problems."
+      ]
+    },
+    {
+      "tag": "treatment",
+      "patterns": [
+        "How to treat brain tumor?",
+        "Is surgery needed?",
+        "Treatment options?"
+      ],
+      "responses": [
+        "Treatments include surgery, chemo, and radiotherapy."
+      ]
+    },
+    {
+      "tag": "accuracy",
+      "patterns": [
+        "Is this accurate?",
+        "How sure is the model?",
+        "Can I trust the result?"
+      ],
+      "responses": [
+        "The model is trained on medical data and gives a confidence score."
+      ]
+    },
+    {
+      "tag": "privacy",
+      "patterns": [
+        "Is my data safe?",
+        "Do you save images?",
+        "Is it private?"
+      ],
+      "responses": [
+        "Yes, your data is safe. We do not save images."
+      ]
+    },
+    {
+      "tag": "help",
+      "patterns": [
+        "Help me",
+        "What can you do?",
+        "How do I use this app?"
+      ],
+      "responses": [
+        "You can upload an MRI image and get a tumor prediction and visualization."
+      ]
+    },
+    {
+      "tag": "emergency",
+      "patterns": [
+        "Is this urgent?",
+        "Should I worry?",
+        "What if it\u2019s positive?"
+      ],
+      "responses": [
+        "If a tumor is detected, please consult a doctor as soon as possible."
+      ]
+    },
+    {
+      "tag": "fallback",
+      "patterns": [
+        "I don\u2019t understand",
+        "?",
+        "What are you saying?",
+        "None of this makes sense"
+      ],
+      "responses": [
+        "Sorry, I didn\u2019t understand. Try asking about MRI or tumors."
+      ]
+    },
+    {
+      "tag": "model_info",
+      "patterns": [
+        "Which model do you use?",
+        "What model is this?",
+        "Tell me about the model"
+      ],
+      "responses": [
+        "We use a deep learning model trained on MRI data for tumor detection."
+      ]
+    },
+    {
+      "tag": "zoom_image",
+      "patterns": [
+        "Can I zoom the image?",
+        "How to zoom in?",
+        "Zoom in the MRI"
+      ],
+      "responses": [
+        "Yes, you can use the zoom buttons below the image."
+      ]
+    },
+    {
+      "tag": "no_tumor",
+      "patterns": [
+        "What if there is no tumor?",
+        "It says Notumor, what does it mean?",
+        "Is this healthy?"
+      ],
+      "responses": [
+        "'Notumor' means no tumor was detected in the image."
+      ]
+    },
+    {
+      "tag": "image_quality",
+      "patterns": [
+        "Is the MRI image clear?",
+        "Bad image quality?",
+        "Does the image work?"
+      ],
+      "responses": [
+        "Make sure the MRI image is clear and in JPG or PNG format."
+      ]
+    },
+    {
+      "tag": "doctor_help",
+      "patterns": [
+        "Should I ask a doctor?",
+        "Can you replace a doctor?",
+        "Do I need medical advice?"
+      ],
+      "responses": [
+        "This tool helps doctors, but cannot replace professional medical advice."
+      ]
+    },
+    {
+      "tag": "usage_language",
+      "patterns": [
+        "Do you support French?",
+        "Can I use Arabic?",
+        "Other languages?"
+      ],
+      "responses": [
+        "Currently, the app is in English. Future updates may add more languages."
+      ]
+    },
+    {
+      "tag": "contact_support",
+      "patterns": [
+        "Who can I contact?",
+        "I have a problem",
+        "App not working"
+      ],
+      "responses": [
+        "Please contact the developers Eya Damak or Chahd Gharbi for help."
+      ]
+    },
+    {
+      "tag": "credit",
+      "patterns": [
+        "Who created this?",
+        "Who built the app?",
+        "Who are the developers?"
+      ],
+      "responses": [
+        "This app was created by Eya Damak and Chahd Gharbi, under the guidance of Dr. Olfa Gaddour."
+      ]
+    },
+    {
+      "tag": "image_formats",
+      "patterns": [
+        "What image types are supported?",
+        "Can I use PNG?",
+        "Can I upload JPEG?"
+      ],
+      "responses": [
+        "You can upload PNG, JPG, and JPEG formats."
+      ]
+    }
+  ]
+}
